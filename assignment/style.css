@@ -5,19 +5,44 @@
 body{
 	margin: 0;
 	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+
+.name1{
+  background-color: #FFB6C1;
+}
+
+.name2{
+  color: white;
+  background-color: #FF0000;
+}
+.name3{
+  background-color: #FFFF00;
 }
 
 .row{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#main-header{
+  background-color:#88FF1D;
+  color:#fff;
 }
 
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  color: #ff4532;
+  color: #FF0C00;
   font-size: 50px;
+  text-transform: uppercase;
 }
 
 
@@ -50,20 +75,10 @@ h1 {
   font-size: 25px;
   padding: 2%;
   padding-top: 55px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: #92FBFF;
 }
 
-.name1{
-  background-color: #FFB6C1;
-}
 
-.name2{
-  color: white;
-  background-color: #FF0000;
-}
-.name3{
-  background-color: #FFFF00;
-}
 
 
 /********** Large devices only **********/
