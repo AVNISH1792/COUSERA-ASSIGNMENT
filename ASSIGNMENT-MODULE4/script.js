@@ -9,7 +9,7 @@
         bye(names[i]);
       }
       else {
-        helloS(names[i]);
+        hello(names[i]);
       }
     }
     
